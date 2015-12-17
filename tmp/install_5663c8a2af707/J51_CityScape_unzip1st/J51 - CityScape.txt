@@ -1,0 +1,41 @@
+      CityScape - A Joomla 1.5 Template by Joomla51
+
+Joomla Version............... v1.5
+Template Version............. v1.0
+Creation Date................ Feb '09
+Author....................... Joomla51
+Author Email................. info@joomla51.com
+Author URL................... http://www.joomla51.com
+License...................... GNU/GPL
+
+
+Product Description
+-------------------
+CityScape, Joomla51's latest template comes with a light and elegant two column layout with the usual nine module positions, MooMenu dropdown animation and a valid tableless design.
+
+FEATURES
+ 
+* 9 Possible Module Positions
+* Moomenu dropdown animation effect
+* Top & Side Menu Bar
+* Delivered with source Adobe .PSD Header
+* Delivered with blank .JPG Header
+* W3C CSS Validated & W3C XHTML Validated
+* Set 2 column layout.
+* Tableless design and 100% css based
+
+
+Enjoy!
+
+
+NOTE: To Setup Horizontal MooMenu
+---------------------------------
+Go to the admin panel >> Module Manager >> Click on your menu module (Main Menu, Top Menu.....)
+Under "Module Parameters" set "Menu Style" to "List"
+Under "Module Parameters" change "Always show sub-menu Items" to "yes"
+Under "Details" change the "position" to "hornav"
+Under "Advanced Parameters" set "Menu Class Suffix" to "_horiz" 
+
+
+
+Copyright © 2009 Joomla51. All Rights Reserved.

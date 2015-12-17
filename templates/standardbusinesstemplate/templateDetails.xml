@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>Standard Business Template</name>
+	<version>1.5</version>
+	<creationDate>23.04.09</creationDate>
+	<author>Wolf</author>
+	<authorEmail>ich@impisi.de</authorEmail>
+	<authorUrl>http://www.impisi.de</authorUrl>
+	<license><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Attribution-Share Alike 3.0 Unported License</a></license>
+	<description>
+	<![CDATA[
+			<h1 style="padding:10px;">Standard Business Template</h1>
+			<img src="../templates/standardbusinesstemplate/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	<p style="padding:10px;">Lizenziert unter <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">
+	Creative Commons Attribution-Share Alike 3.0 Unported License</a> (&ouml;ffnet in neuem Fenster/Tab).</p>
+	<p style="padding:10px;">Der Verweis zum Autor darf nicht entfernt werden, da die Erstellung des Templates sehr aufwendig war/ist. Siehe auch:
+	<a href="http://www.impisi.de" target="_blank">www.impisi.de</a> (&ouml;ffnet in neuem Fenster/Tab)</p>
+	]]>  
+	</description>
+	<files>
+		<filename>head_includes.php</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>css/template.css</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>images/logo.jpg</filename>
+		<filename>images/banner.jpg</filename>
+		<filename>images/gradient.jpg</filename>
+		<filename>images/sl.jpg</filename>
+		<filename>images/sr.jpg</filename>
+		<filename>images/title.jpg</filename>
+		<filename>images/user3sep.jpg</filename>
+	</files>
+	
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>banner</position>
+		<position>footer</position>
+		<position>user3</position>
+		<position>newsflash</position>
+	</positions>
+
+	
+</install>

@@ -1,0 +1,4 @@
+<?php echo(base64_decode("PGEgaHJlZj0iaHR0cDovL3Byb3dlYmNyZWF0aXZlLmNvbSIgdGl0bGU9IkZyZWUgSm9vbWxhIFRl
+bXBsYXRlcyIgcmVsPSJmb2xsb3ciPkZyZWUgSm9vbWxhIFRlbXBsYXRlczwvYT4gYnkgPGEgaHJl
+Zj0iaHR0cDovL2hvc3Rlcm1vbnN0ZXIuY29tIiB0aXRsZT0iVW5saW1pdGVkIFdlYiBIb3N0aW5n
+IiByZWw9ImZvbGxvdyI+VW5saW1pdGVkIFdlYiBIb3N0aW5nPC9hPg==")); ?>

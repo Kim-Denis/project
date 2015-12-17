@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+  <install type="module" version="1.5" client="site">
+  <name>DC MoneyBookers.com Module</name>
+  <author>DART Creations</author>
+  <licence>GNU/GPL</licence>
+  <creationDate>March 2009</creationDate>
+  <authorEmail>spam-me@dart-creations.com</authorEmail>
+  <authorUrl>http://www.dart-creations.com</authorUrl>
+  <version>1.5.2</version>
+  <description><![CDATA[ 
+			Thank you for installing DC MoneyBookers Module. This module is a customizable module to enable MoneyBookers.com Payments on your Joomla 1.5 website. The following features are available:
+			    - Allows you to use whether to display a MoneyBookers Image or your own text
+     			- Customizable MoneyBookers email of Organization to send money to
+        	- Customizable MoneyBookers email to send notifications to
+    		  - Selectable Currency for Payment
+    			- Payment value
+          - Choice of text for Submit button e.g. Donate, Buy Now etc.
+					- CSS aware for customizable style of module
+Visit <a href="http://www.dart-creations.com">http://www.dart-creations.com</a> for details.
+			</p>
+	]]></description>
+  <files>
+    <filename module="mod_moneybookers">mod_moneybookers.php</filename>
+    <filename module="mod_moneybookers">index.html</filename>
+  </files>
+  <params>
+    <param name="logo_on" type="radio" default="2" label="Logo or Text?" description="Do you want visitors to view a logo/image in the module?.">
+			<option value="0">Logo</option>
+			<option value="1">Text</option>
+			<option value="2">None</option>
+		</param>
+  <param name="logo" type="text" default="http://www.moneybookers.com/images/logo_moneybookers.gif" size="40" label="Logo URL or Text" 
+     description="URL of the logo you want viewed or HTML of some text." />
+  <param name="logowidth" type="text" default="90px" size="40" label="Logo Width" 
+     description="MoneyBookers Logo Width" />
+  <param name="logoheight" type="text" default="30px" size="40" label="Logo Height" 
+     description="MoneyBookers Logo Height" />
+	 
+  <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+  <param name="moneyb_email" type="text" default="info@dart-creations.com" label="Money Bookers Email" 
+     description="Your MoneyBookers Email Address." />
+  <param name="moneyb_notif" type="text" default="info@dart-creations.com" label="Money Bookers Email Notifications" 
+     description="Your MoneyBookers Notification Email Address" />
+  <param name="moneyb_description" type="text" default="Product Description" label="Product Description" 
+     description="Short Description of Product" />
+  <param name="moneyb_amount" type="text" default="10" label="Payment Amount" description="Payment amount"/>
+  <param name="moneyb_text" type="text" default="Textual Description" label="Text Description" description="Text Description of product / services being sold"/>
+	
+   <param name="moneybcur_val" type="list" default="USD" label="Default Currency" description="Default Currency">
+     <option value='CAD'>CAD</option>
+<option value='USD'>USD</option>
+<option value='GBP'>GBP</option>
+<option value='AUD'>AUD</option>
+<option value='JPY'>JPY</option>
+<option value='EUR'>EUR</option>
+<option value='CHF'>CHF</option>
+<option value='CZK'>CZK</option>
+<option value='DKK'>DKK</option>
+<option value='HKD'>HKD</option>
+<option value='HUF'>HUF</option>
+<option value='NOK'>NOK</option>
+<option value='NZD'>NZD</option>
+<option value='PLN'>PLN</option>
+<option value='SEK'>SEK</option>
+<option value='SGD'>SGD</option>
+<option value='ZAR'>ZAR</option>
+     </param>
+   <param name="moneybval_button" type="text" default="Pay" label="Button Text" description="Text to put on your button."></param>
+   </params>
+   <param name="link" type="radio" default="1" label="Invisible Link to Author" description="Invisible Link to author of the module">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+</install>
